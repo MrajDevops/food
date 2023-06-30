@@ -1,7 +1,7 @@
 node{
 // demo
    stage('SCM Checkout'){
-     git 'https://github.com/MrajDevops/my-app.git'
+     git 'https://github.com/MrajDevops/food.git'
    }
    stage('Compile-Package'){
       // Get maven home path
